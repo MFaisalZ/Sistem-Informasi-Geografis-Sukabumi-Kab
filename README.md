@@ -2,6 +2,8 @@
 
 
 Option 1: Install with NPM and a build tool
+
+
 Development
 Installing from the npm package registry and using a build tool is the recommended approach for most users — the more dependencies your project needs, the more likely you are to run into problems that the static hosting cannot easily resolve. With a build tool, importing local JavaScript files and npm packages should work out of the box, without import maps.
 
@@ -14,6 +16,9 @@ npm install --save three
 # vite
 npm install --save-dev vite
 Installation added node_modules/ and package.json to my project. What are they?
+
+
+
 From your terminal, run:
 npx vite
 What is npx?
